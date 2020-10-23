@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto, Lora -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="../diarioProvincial/js/main.js"></script>
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="../diarioProvincial/css/style.css">
+    <title>Diario Provincial</title>
+    <link rel="shortcut icon" href="../diarioProvincial/Imagens/icono.ico">
+</head>
+
+<body class="row col-12 d-flex m-0 justify-content-center">
+    <section class="container col-12 col-md-10 col-lg-8 p-1">
+        <div class="row">
+            <header class="col-12 ">
+                <div class="col-12 d-flex justify-content-between">
+                    <img class="col-6" src="../diarioProvincial/imagens/logo.png" alt="logo">
+                    <form class="row col-4 form-inline align-items-center d-flex justify-content-around ">
+                        <a href="../diarioProvincial/url/register.html">
+                            <button type="button" class="btn btn-indidb ml-3 d-none d-lg-block">Registrate</button>
+                        </a>
+                        <a href="#" class="col-4 px-2 d-none d-lg-block " data-toggle="modal" data-target="#login"><i class="fas fa-user-circle text-indidb" style="font-size: 2.5rem"></i></a>
+                    </form>
+                </div>
+            </header>
+            <nav class="col-12 navbar navbar-expand-lg navbar-dark indidb sticky-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon font-weight-bold"></span>
+                </button>
+                <form class="form-inline align-self-end">
+                    <a href="#" class="mx-2" data-toggle="modal" data-target="#login"> <i class="fas fa-user-circle text-white d-lg-none" aria-hidden="true" style="font-size: 2rem"></i></a>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand font-weight-bold" href="../diarioProvincial/Index.html">Portada</a>
+                    <ul class="navbar-nav mr-auto mt-lg-0 font-weight-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../diarioProvincial/url/locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../diarioProvincial/url/internacionales.html">Internacionales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../diarioProvincial/url/politica.html">Politica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../diarioProvincial/url/sucesos.html">Sucesos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../diarioProvincial/url/deportes.html">Deportes</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control form-control-sm ml-0 w-75 mx-0" type="text" placeholder="Buscar" aria-label="Search">
+                        <a href="#" class="mx-2"> <i class="fas fa-search text-white" aria-hidden="true"></i></a>
+                    </form>
+                </div>
+            </nav>
+            <section class="col-12">
+                <a class="justify-content-center m-3" href="#">
+                    <article class="row justify-content-center">
+                        <img class="col-12 position-relative img-fluid" src="Imagens/portada.jpg" alt="Portada" srcset="">
+                        <div class="col-8 position-absolute align-self-end  mb-1 p-0 lora-font">
+                            <h1 class="col-12 col-md-10 text-white  display-1 font-weight-bold p-0 f-size">COVID-19 - ACTUALIDAD</h1>
+                            <p class="col-12 col-md-10 text-white text-justify p-0 f-size font-weight-bold"> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                        </div>
+                    </article>
+                </a>
+            </section>
+            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
+                <h2 class="col-12 display-6">Noticias Locales</h2>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local1.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local2.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local3.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
+                <h2 class="col-12 display-6">Noticias Internacionales</h2>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter1.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter2.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter3.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <div class="col-12">
+                <aside class="p-3 d-flex justify-content-center">
+                    <a href="https://breakingbad.fandom.com/wiki/Madrigal_Electromotive_GmbH" target=”_blank”>
+                        <img class="img-fluid" src="banners/Banner2.jpg" alt="Card image cap">
+                    </a>
+                </aside>
+            </div>
+            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
+                <h2 class="col-12 display-6">Politica</h2>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic1.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic2.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic3.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
+                <h2 class="col-12 display-6">Sucesos</h2>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event1.jpg" alt="Card image cap">
+                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event2.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none card-body p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event3.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <div class="col-12">
+                <aside class="p-3 d-flex justify-content-center">
+                    <a href="https://breakingbad.fandom.com/wiki/Madrigal_Electromotive_GmbH">
+                        <img class="img-fluid" src="banners/Banner2.jpg" alt="Card image cap">
+                    </a>
+                </aside>
+            </div>
+            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
+                <h2 class="col-12 display-6">Deportes</h2>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport1.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport2.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+                <hr>
+                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
+                    <a href="#" class="t-d-none p-1">
+                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport3.jpg" alt="Card image cap">
+                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
+                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <div class="col-12">
+                <aside class="p-3 d-flex justify-content-center">
+                    <a href="https://breakingbad.fandom.com/es/wiki/Los_Pollos_Hermanos">
+                        <img class="img-fluid" src="banners/Banner1.jpg" alt="Card image cap">
+                    </a>
+                </aside>
+            </div>
+            <!-- Footer -->
+            <footer class="col-12 page-footer font-small bg-dark pt-2">
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-4 mx-auto">
+                            <!-- Content -->
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-0">Footer Content</h5>
+                            <p class="mb-2">Here you can use rows and columns to organize your footer content.</p>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="clearfix w-100 d-md-none">
+                        <!-- Grid column -->
+                        <div class="col-md-2 mx-auto">
+                            <!-- Links -->
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="clearfix w-100 d-md-none m-2">
+                        <!-- Grid column -->
+                        <div class="col-md-2 mx-auto">
+                            <!-- Links -->
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="clearfix w-100 d-md-none m-2">
+                        <!-- Grid column -->
+                        <div class="col-md-2 mx-auto">
+                            <!-- Links -->
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef" href="#!">Link 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center m-0">
+                    <li class="list-inline-item">
+                        <a href="#" class=" mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class=" mx-1">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class=" mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class=" mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class=" mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-1">© 2020 Copyright:
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </div>
+    </section>
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inicia Sesion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form class="needs-validation" novalidate action="#">
+                        <div class="form-group">
+                            <label for="user">Usuario</label>
+                            <input type="text" class="form-control" id="user" placeholder="Nombre Usuario" required>
+                            <div class="valid-feedback">ok</div>
+                            <div class="invalid-feedback">Añade un usuario</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Contraseña</label>
+                            <input type="password" class="form-control" id="pass" placeholder="Contraseña" required>
+                            <div class="valid-feedback">ok</div>
+                            <div class="invalid-feedback">Añade una contraseña</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <input type="submit" class="btn btn-indidb" value="Iniciar Sesion">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
