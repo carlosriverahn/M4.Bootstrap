@@ -20,9 +20,9 @@
     <link rel="shortcut icon" href="../diarioProvincial/Imagens/icono.ico">
 </head>
 
-<body class="row col-12 d-flex m-0 justify-content-center">
-    <section class="container col-12 col-md-10 col-lg-8 p-1">
-        <div class="row">
+<body>
+    <section class="container-fluid">
+        <div class="row justify-content-center">
             <header class="col-12 ">
                 <div class="col-12 d-flex justify-content-between">
                     <img class="col-6" src="../diarioProvincial/imagens/logo.png" alt="logo">
@@ -66,80 +66,113 @@
                     </form>
                 </div>
             </nav>
-            <section class="col-12">
-                <a class="justify-content-center m-3" href="#">
-                    <article class="row justify-content-center">
-                        <img class="col-12 position-relative img-fluid" src="Imagens/portada.jpg" alt="Portada" srcset="">
-                        <div class="col-8 position-absolute align-self-end  mb-1 p-0 lora-font">
-                            <h1 class="col-12 col-md-10 text-white  display-1 font-weight-bold p-0 f-size">COVID-19 - ACTUALIDAD</h1>
-                            <p class="col-12 col-md-10 text-white text-justify p-0 f-size font-weight-bold"> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+            <section class="col-12 col-md-8 col-lg-6 p-3 lora-font">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../diarioProvincial/Imagens/portada1.jpg" class="d-block w-100" alt="Portada1">
+                                <div class="carousel-caption d-md-block text-left f-size">
+                                <h5 class="f-size">Campo cientifico:</h5>
+                                <p>Nuevos resultados indican que las vacunas estaran listas para 2021.</p>
+                                </div>
+                            </div>
+                      <div class="carousel-item">
+                        <img src="../diarioProvincial/Imagens/portada2.jpg" class="d-block w-100" alt="Portada2">
+                        <div class="carousel-caption d-md-block text-left f-size">
+                          <h5 class="f-size">ALEMANIA:</h5>
+                          <p>Angela Merkel anuncia que se tomaran medidas radicales contra la pandemia</p>
                         </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../diarioProvincial/Imagens/portada3.jpg" class="d-block w-100" alt="Portada3">
+                        <div class="carousel-caption d-md-block text-left f-size">
+                          <h5 class="f-size">FINANZAS</h5>
+                          <p>Se aprobara megapresupuesto para combatir la pandemia.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Atras</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Siguiente</span>
+                    </a>
+                  </div>
+            </section>
+            <section class="col-12 col-md-11 lora-font justify-content-center">
+                <div class="row d-flex justify-content-center m-0">
+                    <h2 class="col-12 col-lg-10 display-6 m-0">Noticias Locales</h2>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/local1.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                                <p class="col-12  text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
                     </article>
-                </a>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/local2.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/local3.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </section>
-            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
-                <h2 class="col-12 display-6">Noticias Locales</h2>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local1.jpg" alt="Card image cap">
-                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local2.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/local3.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-            </section>
-            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
-                <h2 class="col-12 display-6">Noticias Internacionales</h2>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter1.jpg" alt="Card image cap">
-                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter2.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/inter3.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
+            <!-- <section class="col-11 pl-1 p-0 lora-font"> 
+                <div class="row d-flex justify-content-center">
+                    <h2 class="col-12 col-lg-10 display-6 m-3">Noticias Internacionales</h2>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/inter1.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                                <p class="col-12  text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/Inter2.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none card-body p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/inter3.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </section>
             <div class="col-12">
                 <aside class="p-3 d-flex justify-content-center">
@@ -148,69 +181,73 @@
                     </a>
                 </aside>
             </div>
-            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
-                <h2 class="col-12 display-6">Politica</h2>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic1.jpg" alt="Card image cap">
-                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic2.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/politic3.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
+            <section class="col-11 pl-1 p-0 lora-font">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="col-12 col-lg-10 display-6 m-3">Noticias Politica</h2>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/politic1.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                                <p class="col-12  text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/politic2.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none card-body p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/politic3.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </section>
-            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
-                <h2 class="col-12 display-6">Sucesos</h2>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event1.jpg" alt="Card image cap">
-                        <div class="col-12 col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event2.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none card-body p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/event3.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
+            <section class="col-11 pl-1 p-0 lora-font">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="col-12 col-lg-10 display-6 m-3">Noticias sucesos</h2>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/event1.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                                <p class="col-12  text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/event2.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none card-body p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/event3.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </section>
             <div class="col-12">
                 <aside class="p-3 d-flex justify-content-center">
@@ -219,37 +256,39 @@
                     </a>
                 </aside>
             </div>
-            <section class="row col-12 justify-content-center p-0 m-0 lora-font">
-                <h2 class="col-12 display-6">Deportes</h2>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport1.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport2.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
-                <hr>
-                <article class="col-11 col-md-12 col-lg-4 p-3 p-lg-1 card">
-                    <a href="#" class="t-d-none p-1">
-                        <img class="col-md-5 col-lg-12 card-img-top float-md-left float-lg-none s-img" src="Imagens/sport3.jpg" alt="Card image cap">
-                        <div class="col-md-6 col-lg-12 float-md-right float-lg-none p-0">
-                            <h3 class="col-12 card-title m-1 text-primary display-5">Aumentan Estres Familiar</h3>
-                            <p class="col-12 card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
-                        </div>
-                    </a>
-                </article>
+            <section class="col-11 pl-1 p-0 lora-font">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="col-12 col-lg-10 display-6 m-3">Noticias Deportes</h2> 
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/sport1.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Estadisticas locales COVID-19</h3>
+                                <p class="col-12  text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/sport2.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Digitalizacion Diario Provincial</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                    <hr>
+                    <article class="col-12 col-md-12 col-lg-3 p-0 m-1 card-custom border">
+                        <a href="#" class="row t-d-none card-body p-0">
+                            <img class="col-md-6 col-lg-12 s-img w-100" src="Imagens/sport3.jpg" alt="Card image cap">
+                            <div class="col-md-6 col-lg-12 pl-md-1 pt-md-4 pr-md-4 pl-lg-4">
+                                <h3 class="col-12 m-1 text-primary display-5">Aumentan Estres Familiar</h3>
+                                <p class="col-12 text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500...</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </section>
             <div class="col-12">
                 <aside class="p-3 d-flex justify-content-center">
@@ -257,61 +296,44 @@
                         <img class="img-fluid" src="banners/Banner1.jpg" alt="Card image cap">
                     </a>
                 </aside>
-            </div>
+            </div> --> 
             <!-- Footer -->
-            <footer class="col-12 page-footer font-small bg-dark pt-2">
+            <footer class="col-12 page-footer font-small bg-dark pt-2 lora-font">
                 <!-- Footer Links -->
-                <div class="container text-center text-md-left">
+                <div class="text-center">
                     <!-- Grid row -->
-                    <div class="row">
+                    <div class="container justify-content-center">
                         <!-- Grid column -->
-                        <div class="col-md-4 mx-auto">
+                        <div class="p-0">
                             <!-- Content -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-0">Footer Content</h5>
-                            <p class="mb-2">Here you can use rows and columns to organize your footer content.</p>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-0">DIARIO PROVINCIAL</h5>
+                            <p class="mb-3">Todos los derechos reservados</p>
                         </div>
                         <!-- Grid column -->
-                        <hr class="clearfix w-100 d-md-none">
+                        <hr class="clearfix w-100 my-1 d-md-none">
                         <!-- Grid column -->
-                        <div class="col-md-2 mx-auto">
-                            <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
-                            <ul class="list-unstyled">
+                        <div class=" p-0">
+                            <ul class="row list-unstyled mb-3 justify-content-center">
                                 <li>
-                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                    <a class="t-d-nonew mx-0" href="#!">Quiénes somos</a>
                                 </li>
                                 <li>
-                                    <a class="t-d-nonef" href="#!">Link 2</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Grid column -->
-                        <hr class="clearfix w-100 d-md-none m-2">
-                        <!-- Grid column -->
-                        <div class="col-md-2 mx-auto">
-                            <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                    <a class="t-d-nonef mx-0" href="#!">Contacto</a>
                                 </li>
                                 <li>
-                                    <a class="t-d-nonef" href="#!">Link 2</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Grid column -->
-                        <hr class="clearfix w-100 d-md-none m-2">
-                        <!-- Grid column -->
-                        <div class="col-md-2 mx-auto">
-                            <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-1">Links</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a class="t-d-nonef" href="#!">Link 1</a>
+                                    <a class="t-d-nonef mx-0" href="#!">Aviso legal</a>
                                 </li>
                                 <li>
-                                    <a class="t-d-nonef" href="#!">Link 2</a>
+                                    <a class="t-d-nonef mx-0" href="#!">Ayuda</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef mx-0" href="#!">Política de cookies</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef mx-0" href="#!">Política de privacidad</a>
+                                </li>
+                                <li>
+                                    <a class="t-d-nonef mx-0" href="#!">Área de privacidad</a>
                                 </li>
                             </ul>
                         </div>
